@@ -1,0 +1,66 @@
+html{
+    background: url("/images/bckgr1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+
+.title{
+    color: rgb(53, 21, 21);
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+.first .text1{
+    text-align: center;
+    /* font-style: oblique; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    padding-top: 40px;
+    font-size: 20px;
+}
+.first img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 400px;
+}
+.second .text2{
+    text-align: center;
+    /* font-style: oblique;
+    font-family: 'Times New Roman', Times, serif; */
+    padding-top: 40px;
+    font-size: 20px;
+}
+.second img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 400px;
+}
+.third .text3{
+    text-align: center;
+    /* font-style: oblique;
+    font-family: 'Times New Roman', Times, serif; */
+    padding-top: 40px;
+    font-size: 20px;
+}
+.third img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 400px;
+}
+
+@media(max-width: 800px){
+    html{
+      background: url("/images/bckgr1.jpg") no-repeat;
+      background-size:130% 100%;
+    }
+    .first img, .second img, .third img{
+        height: 400px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
