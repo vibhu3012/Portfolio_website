@@ -1,0 +1,92 @@
+
+body{
+    background: url("/images/extra.jpg") no-repeat;
+    background-size: 100%;
+}
+.about-content .left .slider{
+    width: 300px;
+    height: 400px;
+    background: url("/images/ngo.png") no-repeat;
+    margin-left: 70px;
+    margin-top: 20px;
+    background-size: 100% 100%;
+    animation: slide 4s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url("/images/17.png") no-repeat;
+        background-size: 100%;
+    }
+    50%{
+        background: url("/images/16.png") no-repeat;
+        background-size: 100%;
+    }
+}
+.about-content .left{
+    width:35%;
+    align-content: center;
+}
+.about-content .left img{
+    height: 400px;
+    width: 300px;
+    object-fit:cover;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 3.5px solid rgb(199, 86, 209);
+}
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-content .right p{
+    text-align: justify;
+    font-size: 23px;
+}
+ .title{
+    color: rgb(56, 14, 48);
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: -2px 0 rgb(110, 0, 110);
+    text-decoration: overline;
+    text-decoration-style:dotted;
+}
+.about-content .right{
+    width: 65%;
+}
+.about-content .right .text{
+    color:rgb(56, 14, 48);
+    text-decoration: underline rgb(56, 14, 48);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+@media(max-width: 1300px){
+    .about-content .left .slider{
+        margin-left:30px;
+    }
+    body{
+        background-size: cover;
+        position: relative;
+    }
+    .about-content .right{
+        font-size: 15px;
+        margin-left: 30px;
+        width: 80%;
+
+    }
+    .title{
+        margin-right: 40px;
+    }
+}

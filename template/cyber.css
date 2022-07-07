@@ -1,0 +1,40 @@
+.head h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 244, 215, 0.658);
+    text-shadow: 2px 2px #ffe4e4;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+body{
+    background: url("/images/cyber.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.slider{
+    object-fit: cover;
+    width: 600px;
+    height: 700px;
+    background: url("/images/Cert.Cyber.png") no-repeat;
+    margin:auto;
+    margin-top: 20px;
+    background-size: 100%;
+    animation: slide 10s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url("/images/Cert.\ Ethical\ Hacking.jpg") no-repeat;
+        background-size: 100%;
+    }
+    50%{
+        background: url("/images/certiProf.png") no-repeat;
+        background-size: 100%;
+    }
+    75%{
+        background: url("/images/nse.png") no-repeat;
+        background-size: 100%;
+    }
+    100%{
+        background: url("/images/Cert.\ 2.jpg") no-repeat;
+        background-size: 100%;
+    }
+}
